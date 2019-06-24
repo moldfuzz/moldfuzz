@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moldfuzz</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<header class="cabecalho"> 
+    <img src="img/banner-moldfuzz-amarelo-1920.jpg" alt="moldfuzz">
+</header>
+
+<body>
+
+    <main class="fundo">
+        
+        <div class="botoes">
+            <a href="index.html">Bio</a>
+        
+            <a href="index.html">Gear</a>
+        
+            <a href="http://www.soundcloud.com/moldfuzz" target="_blank">Soundcloud</a>
+        
+            <a href="http://moldfuzz.Bandcamp.com" target="_blank">Bandcamp</a>
+        </div> 
+
+    
+        <!-- Eu havia usado isto primeiro. -->
+
+        <!-- <section class="video"> 
+            <iframe width="800" height="580"
+            src="https://youtu.be/RuRFbVfNkVQ">
+            </iframe> 
+
+        </section> -->
+
+        <div class="video">
+
+            <div id="ytplayer"></div>
+
+                <script>
+    // Load the IFrame Player API code asynchronously.
+                    var tag = document.createElement('script');
+                    tag.src = "https://www.youtube.com/player_api";
+                    var firstScriptTag = document.getElementsByTagName('script')[0];
+                    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Replace the 'ytplayer' element with an <iframe> and
+    // YouTube player after the API code downloads.
+                var player;
+                function onYouTubePlayerAPIReady() {
+                    player = new YT.Player('ytplayer', {
+                    height: '580',
+                    width: '800',
+                    videoId: 'RuRFbVfNkVQ'
+                    });
+                }
+                </script>
+        </div>
+    </main>
+
+
+
+
+    <footer class="rodape">
+        ALL MATERIAL - MOLDFUZZ 2019 - ALL RIGHTS RESERVED.
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+html, body{
+    margin: 0;
+    /* height: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    width: 100%;
+}
+.cabecalho img{
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fundo{
+    min-height: 100%;
+    background-color: #fff001;
+    background-image: linear-gradient(#fff001, white);
+}
+
+.botoes a{
+    color: black;
+    font-weight: bolder;
+}
+
+.botoes a:hover{
+    color: white;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 200px 20px 200px 20px;
+    /* display: inline-block; 
+    margin: 0 1%;
+    text-align: center;*/
+}
+
+.video{
+    padding: 100px 80px 300px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rodape{
+    text-align: center;
+    font-weight: bold;
+    height: 20px;
+    margin-top: -20px;
+}
